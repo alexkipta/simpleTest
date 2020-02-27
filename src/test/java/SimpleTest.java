@@ -90,7 +90,7 @@ import java.util.Random;
                     @Test
                     public void alwaysPassF()
                     {
-                        Assert.assertEquals(1, 1);
+                        Assert.assertEquals(1, 2);
                     }
                    @Test
                    public void alwaysFail5()
@@ -102,7 +102,22 @@ import java.util.Random;
                   @Test
                     public void alwaysPass6()
                     {
-                        Assert.assertEquals(1, 1);
+                        Assert.assertEquals(1, 2);
+                    }
+			@Test
+                    public void alwaysPass6()
+                    {
+                        Assert.assertEquals(1, 2);
+                    }
+			@Test
+                    public void alwaysPass6()
+                    {
+                        Assert.assertEquals(1, 2);
+                    }
+			@Test
+                    public void alwaysPass6()
+                    {
+                        Assert.assertEquals(1, 2);
                     }
                     @Test
                     public void alwaysPassC()
