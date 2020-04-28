@@ -31,7 +31,7 @@ import java.util.Random;
                    }
 			
 		   @Test  
-                   public void alwaysPass1New()
+                   public void alwaysPass1New2()
 		   {
 			   
                        Assert.assertEquals(1, 2);
