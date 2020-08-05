@@ -7,6 +7,7 @@ public class Calcs {
     public void alwaysFail()
     {
         Assert.assertEquals(1, 2);
+        
     }
     
     @Test
