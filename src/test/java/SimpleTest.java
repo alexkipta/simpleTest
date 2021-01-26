@@ -13,11 +13,7 @@ import java.util.Random;
                 public class SimpleTest {
                     private int a = 1;
                     private int b =3;
-                 
-			
-			
-			
-                                
+                       
                    @Test  
                    public void alwaysPass1()
                    {
