@@ -14,7 +14,7 @@ import java.util.Random;
                     private int b =3;
                          
                    @Test  
-                   public void alwaysPass1()
+                   public void alwaysPass1update()
                    {
 
                        Assert.assertEquals(a, 1);
