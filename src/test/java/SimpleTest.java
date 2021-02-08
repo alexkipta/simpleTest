@@ -118,7 +118,7 @@ import java.util.Random;
 			@Test
                     public void always2Pass6()
                     {
-                        Assert.assertEquals(1, 2);
+                        Assert.assertEquals(1, 1);
                     }
 			@Test
                     public void always3Pass6()
