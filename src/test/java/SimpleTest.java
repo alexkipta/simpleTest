@@ -26,14 +26,14 @@ import java.util.Random;
                    public void alwaysPass1New()
                    {
                     
-                       Assert.assertEquals(1, 2);
+                       Assert.assertEquals(1, 1);
                    }
 			
 		   @Test  
                    public void alwaysPass1New2()
 		   {
 			   
-                       Assert.assertEquals(1, 2);
+                       Assert.assertEquals(1, 1);
                    }
 			
 		   @Test  
@@ -53,7 +53,7 @@ import java.util.Random;
                    @Test  
                    public void alwaysPass3()
                    {
-                       Assert.assertEquals(1, 3);
+                       Assert.assertEquals(1, 1);
                    }
 
                     @Test
@@ -75,7 +75,7 @@ import java.util.Random;
                     @Test
                     public void alwaysPassB()
                     {
-                        Assert.assertEquals(1, 3);
+                        Assert.assertEquals(1, 1);
                     }
                     @Test
                     public void alwaysPassG()
@@ -96,7 +96,7 @@ import java.util.Random;
                     @Test
                     public void alwaysPassF()
                     {
-                        Assert.assertEquals(1, 2);
+                        Assert.assertEquals(1, 1);
                     }
                    @Test
                    public void alwaysFail5()
@@ -108,7 +108,7 @@ import java.util.Random;
                   @Test
                     public void alwaysPass6()
                     {
-                        Assert.assertEquals(1, 2);
+                        Assert.assertEquals(1, 1);
                     }
 			@Test
                     public void always1Pass6()
@@ -148,7 +148,7 @@ import java.util.Random;
                   @Test
                    public void alwaysFail10()
                    {
-                       Assert.assertEquals(1, 2);
+                       Assert.assertEquals(1, 1);
                        System.out.println("Neata!");
                    }
                   @Test
