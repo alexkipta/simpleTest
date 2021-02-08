@@ -10,7 +10,7 @@ public class TestSuitEntity{
                    @Test  
                    public void alwaysPass1_newClass()
                    {
-                       Assert.assertEquals(a, b);
+                       Assert.assertEquals(a, 1);
                        Assert.assertEquals(1, 4);
                    }
 			
